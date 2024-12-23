@@ -1,0 +1,439 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: tounaekana
+version: "beta 0.1.1 Haitou"
+sort: by_weight
+use_preset_vocabulary: false
+min_phrase_weight: 100
+...
+
+々	gora
+゙	-jok
+゛	joktem
+	-tshae
+゜	tshaetem
+# 假名
+𛀄	a
+𛀇	i
+𛀑	e
+𛀕	o
+𛀊	u
+𛀍	eo
+𛂞	pa
+𛂫	pi
+𛂳	pe
+𛂻	po
+𛂰	pu
+𛂡	peo
+𛂟	pp
+𛂠	pha
+𛂭	phi
+𛂶	phe
+𛂹	pho
+𛂲	phu
+𛂣	pheo
+𛃀	hp
+𛂞゙	ba
+𛂫゙	bi
+𛂳゙	be
+𛂻゙	bo
+𛂰゙	bu
+𛂡゙	beo
+𛂟゙	bb
+𛃄	ma
+𛃍	mi
+𛃔	me
+𛃘	mo
+𛃐	mu
+𛃚	meo
+𛃖	mm
+𛂞゚	fa
+𛂫゚	fi
+𛂳゚	fe
+𛂻゚	fo
+𛂰゚	fu
+𛂡゚	feo
+𛂟゚	ff
+𛂠゙	va
+𛂭゙	vi
+𛂶゙	ve
+𛂹゙	vo
+𛂲゙	vu
+𛂣゙	veo
+𛃀゙	vv
+𛁠	ta
+ち	ti
+𛁯	te
+𛁷	to
+𛁬	tu
+𛁽	teo
+𛁲	tt
+た	tha
+𛁨	thi
+𛁱	the
+𛁹	tho
+𛁭	thu
+𛁽゚	theo
+𛁲゚	ht
+𛁠゙	da
+ぢ	di
+𛁯゙	de
+𛁷゙	do
+𛁬゙	du
+𛁽゙	deo
+𛁲゙	dd
+𛂁	na
+𛂈	ni
+𛂔	ne
+𛂙	no
+ぬ	nu
+𛂂	neo
+𛄞	nn
+𛀼	ca
+𛁈	ci
+𛁕	ce
+𛁏	co
+𛁛	cu
+𛁆	ceo
+𛁃	cc
+𛀼゚	cha
+𛁈゚	chi
+𛁕゚	che
+𛁏゚	cho
+𛁛゚	chu
+𛁆゚	cheo
+𛁃゚	hc
+𛀼゙	ja
+𛁈゙	ji
+𛁕゙	je
+𛁏゙	jo
+𛁛゙	ju
+𛁆゙	jeo
+𛁃゙	jj
+𛃯	la
+𛃱	li
+𛄀	le
+𛄂	lo
+𛃺	lu
+𛃸	leo
+𛃻	ll
+𛃯゚	ra
+𛃱゚	ri
+𛄀゚	re
+𛄂゚	ro
+𛃺゚	ru
+𛃸゚	reo
+𛃻゚	rr
+𛀿	tsa
+𛁄	tsi
+𛁒	tse
+𛁗	tso
+𛁑	tsu
+𛁇	tseo
+𛁓	tshs
+𛀿゚	tsha
+𛁄゚	tshi
+𛁒゚	tshe
+𛁗゚	tsho
+𛁑゚	tshu
+𛁇゚	tsheo
+𛁓゚	hts
+𛁁	sa
+𛁉	si
+𛁔	se
+𛁚	so
+𛁊	su
+𛁙	seo
+𛁅	ss
+𛁁゙	za
+𛁉゙	zi
+𛁔゙	ze
+𛁚゙	zo
+𛁊゙	zu
+𛁙゙	zeo
+𛁅゙	zz
+𛁁゚	sha
+𛁉゚	shi
+𛁔゚	she
+𛁚゚	sho
+𛁊゚	shu
+𛁙゚	sheo
+𛁅゚	hs
+𛀘	ka
+𛀩	ki
+𛀳	ke
+𛀸	ko
+𛀬	ku
+𛀹	keo
+𛀦	kk
+𛀙	kha
+𛀪	khi
+𛀴	khe
+𛀺	kho
+𛀭	khu
+𛀶	khe
+𛀚	hk
+𛀘゙	ga
+𛀩゙	gi
+𛀳゙	ge
+𛀸゙	go
+𛀬゙	gu
+𛀹゙	geo
+𛀦゙	gg
+𛀙゚	ha
+𛀪゚	hi
+𛀴゚	he
+𛀺゚	ho
+𛀭゚	hu
+𛀶゚	heo
+𛀚゚	hh
+や	ya
+𛀇	yi
+𛀁	ye
+𛃩	yo
+𛃥	yu
+𛃨	yeo
+𛀆	yy
+𛄉	wa
+𛄏	wi
+ゑ	we
+𛄛	wo
+𛀊	wu
+𛄚	weo
+𛄜	ww
+# 漢字（音讀）
+昌	choww
+海	hayy
+東	toww
+陽	yoww	
+# 漢字（訓讀）
+氷	ayy kon
+水	a irr
+雪	ayy va
+余	a khu
+母	a makk
+風	an gikk
+風𛀕北	an gi koall
+煙	ass pp
+父	a yahh
+新	baa ru
+腫	baekk
+怎	ba ga mann
+捨	bayy lonn
+優	ba uss
+動物	benn tt
+予	berr vagg
+分	biahh
+圓	bb latt
+月	bb lonn
+果	boohh
+地	bomm
+臥	bb renn
+雀	bb roww
+獵	burr
+寒	ca ku ja
+重	catt
+與	cerr tsa
+一	cheott
+誰	hc ma
+欠	copp # 吹
+洗濯	cuhc
+嗅	cumm cumm
+臏	cuhts
+內裏於	da la mi
+和	dan
+來	daww
+不	dakk
+近	de ka
+肉	denn
+聞	dd garr
+立	dirr
+血	tt lahh
+葉	doann
+二	du o
+火	fae
+長	fann ya
+脫	faww
+凍	fekk
+白	fi ci
+想思	fi kirr
+食	ff khonn
+腐	ff suhk
+斬	ff tonn
+浮	fumm
+搔	garr
+齒	gigg
+齧	gi gitt
+塵	hajj
+吮	happ sapp
+天	harr
+肝	hatt
+女	hemm pu a
+青	hi jeo
+黑	hi tamm
+生	hi tsupp
+雨	ho jenn
+鼻	honn
+於	i
+何處	i ja
+渠	i ra
+尒	i shu
+妻	iss tt rae
+手	ja hann
+隙	ja hi
+路	ja la
+心	jann tt
+遠	jaww hs
+行	jj lann
+根	kaarr
+膚	ka itt
+右	kann
+言	ka ta
+尾	keorr
+首	kk fall
+掘	khaell
+足	khakk
+脛	kha ki
+小	khezz
+結	khiatt
+黃	khi no
+霧	hk phahc
+磨	hk sokk
+蝨	khutt
+鹽	hk zamm
+魚	kiann
+計	kia ra
+犬	kionn
+左	kirr
+若	kk laww
+童	kk nakk
+山	ko nonn
+屾	ko no konn
+乾	kk renn
+笑	kk te va
+污	kk toorr
+別𛂈	lae ni
+男	lakk lakk
+舊	lamm lamm
+擦	la pett
+項	lerr
+狸	leyy # 熊
+海	lia
+湜	lia to
+脂	liamm
+滑	li chinn
+見	li hatt
+五	limm
+林𛂻゙𛄜	limm boww
+緊	lott
+爭戰	lu ann
+寬	lu arr
+吐	ludd
+何時	mann zi
+何	ma na
+玩	ma onn
+日	ma sharr
+潤	mas ssah
+死	matt
+夜	ma yamm
+口	meo lutt
+裘	mi ta
+結收	mia lott # 收緊；裹緊
+種	mnie
+飲	mnium
+腹出	monn tahh
+目	mutt
+呼吸	na fass
+名	na ma
+星	ne ta si
+吾等	niamm
+吾儕	ni ta
+歌	nia ni
+渠等	nia ra
+恁	ni shu
+雲	oann
+此	onn
+𛀕人	o rag
+人衆	o ro go ra
+乳	payy da
+暖	pa na nass
+沙	pass
+滿	pe no
+擊	po kull
+取	phe gann
+羽	hp lu
+多	hp niabb
+未	pp kann
+木	poonn
+木𛀄皮	poonn a ka itt
+搾	pp rahs
+赤	pp rehh
+許	pp remm # 一些
+腹	pp rott
+背	pugg
+泳	maww
+髮	romm
+草	rumm pp
+直	ru uss
+盡𛃘𛄜	sae moww # 所有
+少	sa idd
+晝	sa lann
+流	sa ull
+翼	shaff
+四	sheopp
+因	siavv
+夫	somm
+巛	sonn gall
+腸	so uss
+知	tahh
+尖	ta jamm
+懼	ta kutt
+索	tall
+土	ta na
+角	tann dd
+飛	ter bb
+惡	te ukk
+薄	thi hp ss
+卵	ht lurr
+枝	thoann ss
+坐	thu dukk
+刺	ti chamm
+耳	till ga
+骨	tt lann
+推	toakk
+鈍	tomm poyy
+拉	tsa ikk
+蟲𛁒゚𛄞	tsa tshenn
+爪	tsa upp
+窄	tsemm
+湖	tshae da
+短	tshikk
+三	tull
+兀	uyy
+彼	urr
+灰	vae
+石	va to
+是	vv dull
+燒	vv karr
+轉	vv lohk
+殺	vv nuhh
+花	vonn ka
+大	vv zarr
+此處	yonn
+兀處	yuyy
+彼處	yurr
+舌	zahh
+年	za onn
+眠	zedd
+厚	zz hall
+# 假名詞組
+𛂳゙𛀇𛁅𛂻゙𛃻
+𛂞𛁅𛂻𛀕𛁲
+# 漢字詞組
+昌陽
+海東
+狸
+屾人衆
+湜人衆
