@@ -1,0 +1,118 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: tounaekana
+  name: "東寧假名"
+  version: "beta 0.1.2 Haitou"
+  author:
+    - 蘇維臣 ‹rene.j.ryoo@outlook.com›
+  description: |
+    東寧語假名輸入法試作，文字基於日語變體假名。
+    基於埃爾德路 ‹edwardmartyr@outlook.com›的變體假名輸入方案製作。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 寧文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz-"
+  delimiter: " '"
+  algebra:
+    # 單獨輔音容錯
+    - derive/^pp/p/
+    - derive/^hp/ph/
+    - derive/^bb/b/
+    - derive/^nn/n/
+    - derive/^tt/t/
+    - derive/^ht/th/
+    - derive/^dd/d/
+    - derive/^kk/k/
+    - derive/^hk/kh/
+    - derive/^gg/g/
+    - derive/^tss/ts/
+    - derive/^hts/tsh/
+    - derive/^zz/z/
+    - derive/^cc/c/
+    - derive/^hc/ch/
+    - derive/^jj/j/
+    - derive/^ff/f/
+    - derive/^vv/v/
+    - derive/^ss/s/
+    - derive/^hs/sh/
+    - derive/^mm/m/
+    - derive/^nn/n/
+    - derive/^hh/h/
+    - derive/^ll/l/
+    - derive/^yy/y/
+    - derive/^rr/r/
+    - derive/^ww/w/
+    # 元音尾輔音輸入
+    - derive/([aeiou])yy$/$1y/
+    - derive/([aeiou])ww$/$1w/
+    - derive/([aeiou])pp$/$1p/
+    - derive/([aeiou])hp$/$1ph/
+    - derive/([aeiou])bb$/$1b/
+    - derive/([aeiou])mm$/$1m/
+    - derive/([aeiou])tt$/$1t/
+    - derive/([aeiou])ht$/$1th/
+    - derive/([aeiou])dd$/$1d/
+    - derive/([aeiou])nn$/$1n/
+    - derive/([aeiou])ll$/$1l/
+    - derive/([aeiou])kk$/$1k/
+    - derive/([aeiou])hk$/$1kh/
+    - derive/([aeiou])gg$/$1g/
+    - derive/([aeiou])cc$/$1c/
+    - derive/([aeiou])hc$/$1ch/
+    - derive/([aeiou])jj$/$1j/
+    - derive/([aeiou])ss$/$1s/
+    - derive/([aeiou])zz$/$1z/
+    - derive/([aeiou])ff$/$1f/
+    - derive/([aeiou])vv$/$1v/
+    - derive/([aeiou])hs$/$1sh/
+    - derive/([aeiou])rr$/$1r/
+    - derive/([aeiou])tss$/$1ts/
+    - derive/([aeiou])hts$/$1tsh/
+    # 其他假名容錯（待補）
+    - abbrev/^([a-z]).+$/$1/	#首字母簡拼
+
+translator:
+  dictionary: tounaekana
+  spelling_hints: 5
+  comment_format:
+    - xform/&//
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
