@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: tounaenyi_romazi
+  schema_id: tounaenyi_input
   name: "東寧語𛄂゚𛃄字"
   version: "0.1.2-beta Chouyou"
   author:
@@ -107,7 +107,7 @@ speller:
     - abbrev/^([a-z]).+$/$1/	#首字母簡拼
 
 translator:
-  dictionary: tounaekana
+  dictionary: tounaenyi_input
   spelling_hints: 5
   comment_format:
     - xform/&//

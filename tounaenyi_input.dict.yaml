@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 ---
-name: tounaekana
+name: tounaenyi_input
 version: "0.1.2-beta Chouyou"
 sort: by_weight
 use_preset_vocabulary: false
@@ -238,7 +238,8 @@ min_phrase_weight: 100
 與	cerr tsa
 一	cheott
 誰	hc ma
-欠	copp # 吹
+# ↓吹
+欠	copp
 洗濯	cuhc
 嗅	cumm cumm
 臏	cuhts
@@ -287,6 +288,7 @@ min_phrase_weight: 100
 心	jann tt
 遠	jaww hs
 行	jj lann
+西	ju sett
 根	kaarr
 膚	ka itt
 右	kann
@@ -319,8 +321,10 @@ min_phrase_weight: 100
 男	lakk lakk
 舊	lamm lamm
 擦	la pett
+東	la pimm
 項	lerr
-狸	leyy # 熊
+# ↓熊
+狸	leyy
 海	lia
 湜	lia to
 脂	liamm
@@ -341,7 +345,8 @@ min_phrase_weight: 100
 夜	ma yamm
 口	meo lutt
 裘	mi ta
-結收	mia lott # 收緊；裹緊
+# ↓收緊；裹緊
+結收	mia lott 
 南	mi na mi
 種	mm nie
 飲	mm nium
@@ -372,14 +377,16 @@ min_phrase_weight: 100
 木𛀄皮	poonn a ka itt
 搾	pp rahs
 赤	pp rehh
-許	pp remm # 一些
+# ↓一些
+許	pp remm
 腹	pp rott
 背	pugg
 泳	maww
 髮	romm
 草	rumm pa
 直	ru uss
-盡𛃘𛄜	sae moww # 所有
+# ↓所有
+盡𛃘𛄜	sae moww
 少	sa idd
 晝	sa lann
 流	sa ull
@@ -441,80 +448,150 @@ min_phrase_weight: 100
 湜人衆
 
 # 世界盃專題
-𛄛𛀕𛄂𛁲゙𛀘𛂟        # 世界盃[world cup]
-𛄛𛃻𛀘             # 世界盃簡稱[wol ka]
-𛁚𛀦𛀹             # 足球運動[soccer]
-𛁚𛀦𛀹𛂻゙𛃻          # 足球[soccer ball]
+# ↓世界盃[world cup]
+𛄛𛀕𛄂𛁲゙𛀘𛂟
+# ↓世界盃簡稱[wol ka]
+𛄛𛃻𛀘
+# ↓足球運動[soccer]
+𛁚𛀦𛀹
+# ↓足球[soccer ball]
+𛁚𛀦𛀹𛂻゙𛃻
 # 世界盃專題：亞洲球隊
-𛀄𛁉𛀄           # 亞洲[a si a]
-𛀄𛄜𛁁𛁲𛃯゚𛃱𛀄   # 澳大利亞[au sa tra li a]
-𛀇𛃯゚𛄞           # 伊朗[i ran]
-𛀇𛃯゚𛀦           # 伊拉克[i rak]
-日本            # 日本[net pon]
-𛃩𛃻゚𛁠゙𛄞        # 約旦[yor dan]
-𛀘𛁲𛁠𛃻゚        # 卡塔爾[kat tar]
-𛁁𛄜ぢ𛀄𛃯゚𛂟゙     # 沙特阿拉伯[sau di a rab]
-韓國            # 韓國[hon kook]
-𛀊𛁅゙𛂳゙𛀩𛁅𛁠𛄞   # 烏兹別克斯坦[uz be kis tan]
+# ↓亞洲[a si a]
+𛀄𛁉𛀄
+# ↓澳大利亞[au sa tra li a]
+𛀄𛄜𛁁𛁲𛃯゚𛃱𛀄
+# ↓伊朗[i ran]
+𛀇𛃯゚𛄞
+# ↓伊拉克[i rak]
+𛀇𛃯゚𛀦
+# ↓日本[net pon]
+日本	nett ponn
+# ↓約旦[yor dan]
+𛃩𛃻゚𛁠゙𛄞
+# ↓卡塔爾[kat tar]
+𛀘𛁲𛁠𛃻゚
+# ↓沙特阿拉伯[sau di a rab]
+𛁁𛄜ぢ𛀄𛃯゚𛂟゙
+# ↓韓國[hon kook]
+韓國	honn kookk
+# ↓烏兹別克斯坦[uz be kis tan]
+𛀊𛁅゙𛂳゙𛀩𛁅𛁠𛄞
 # 世界盃專題：歐洲球隊
-𛀑𛄜𛄂゚𛂞    # 歐洲[eu ro pa]
-𛀄𛄜𛁁𛁲𛃱゚𛀄 # 奧地利[au sa tri a]
-𛂳゙𛃻𛁈゙𛀦    # 比利時[bel jik]
-𛂻゙𛁅𛂈𛀄𛁠゙𛄞𛀴゚𛃻゚𛁒゚𛀸゙𛂭゙𛂁 # 波斯尼亞和黑塞哥維那[bos ni a dan her tshe go vi na]
-𛂻゙𛁅𛀴゚𛃻゚     # 波黑[bos her]
-𛀦𛄂゚𛀄ち𛀄  # 克羅地亞[kro a ti a]
-𛁕゚𛀦        # 捷克[chek]
-𛀇𛄞𛀦゙𛃯𛄞 # 英格蘭[in glan]
-𛁅𛀸𛁲𛃯𛄞 # 蘇格蘭[skot lan]
-英國      # 英國[yae kook]
-佛國      # 佛國[fot kook]
-𛂞゚𛃯゚𛄞𛁉  # 法蘭西[fa ran si]
-德國     # 德國[teok kook]
-𛁷゙𛀇𛁃゚   # 德意志[do ich]
-和國     # 和國[ho kook]
-𛂔𛁽゙𛃻゚𛃯𛄞 # 荷蘭[ne deor lan]
-𛂙𛃻゚ ゑ𛀆  # 挪威[nor wei]
-𛂻𛃻゚𛁬𛀘゙𛃻 # 葡萄牙[por tu gal]
-𛀑𛁅𛂞𛂈𛀄 # 西班牙[es pa ni a]
-𛁊𛀇𛁅    # 瑞士[su is]
-𛁚𛀑𛁯゙𛄞  # 瑞典[soe den]
-𛁬𛃻゚𛀩    # 土耳其[tur ki]
-𛀇𛁠𛃱𛀄  # 義大利[i ta li a]
+# ↓歐洲[eu ro pa]
+𛀑𛄜𛄂゚𛂞
+# ↓奧地利[au sa tri a]
+𛀄𛄜𛁁𛁲𛃱゚𛀄
+# ↓比利時[bel jik]
+𛂳゙𛃻𛁈゙𛀦
+# ↓波斯尼亞和黑塞哥維那[bos ni a dan her tshe go vi na]
+𛂻゙𛁅𛂈𛀄𛁠゙𛄞𛀴゚𛃻゚𛁒゚𛀸゙𛂭゙𛂁
+# ↓波黑[bos her]
+𛂻゙𛁅𛀴゚𛃻゚
+# ↓克羅地亞[kro a ti a]
+𛀦𛄂゚𛀄ち𛀄
+# ↓捷克[chek]
+𛁕゚𛀦
+# ↓英格蘭[in glan]
+𛀇𛄞𛀦゙𛃯𛄞
+# ↓蘇格蘭[skot lan]
+𛁅𛀸𛁲𛃯𛄞
+# ↓英國[yae kook]
+英國	yae kookk
+# ↓佛國[fot kook]
+佛國	fott kookk
+# ↓法蘭西[fa ran si]
+𛂞゚𛃯゚𛄞𛁉
+# ↓德國[teok kook]
+德國	teokk kookk
+# ↓德意志[do ich]
+𛁷゙𛀇𛁃゚
+# ↓和國[ho kook]
+和國	ho kookk
+# ↓荷蘭[ne deor lan]
+𛂔𛁽゙𛃻゚𛃯𛄞
+# ↓挪威[nor wei]
+𛂙𛃻゚ゑ𛀆
+# ↓葡萄牙[por tu gal]
+𛂻𛃻゚𛁬𛀘゙𛃻
+# ↓西班牙[es pa ni a]
+𛀑𛁅𛂞𛂈𛀄
+# ↓瑞士[su is]
+𛁊𛀇𛁅
+# ↓瑞典[soe den]
+𛁚𛀑𛁯゙𛄞
+# ↓土耳其[tur ki]
+𛁬𛃻゚𛀩
+# ↓義大利[i ta li a]
+𛀇𛁠𛃱𛀄
 # 世界盃專題：非洲球隊
-𛀄𛂟゚𛃱゚𛀘  # 非洲[af ri ka]
-𛀄𛃻𛁕゙𛃱゚  # 阿爾及利亞[al je ri]
-𛀘𛂻゙𛂶゙𛃻゚𛁯゙  # 佛得角[ka bo ver de]
-𛀸𛄞𛀸゙  # 剛果[kon go]
-𛀸𛄞𛀸゙民主共和國  # 剛果民主共和國[kon go men cu kou wo kook]
-𛁁゙𛀇𛃻゚  # 扎伊爾[za ir]
-𛀑𛁈゙𛂟  # 埃及[e jip]
-𛀘゙𛂁  # 加納[ga na]
-𛀸𛁲ぢ𛂹゙𛀄𛃻゚  # 科特迪瓦[kot di voar]
-𛃘𛄂゚𛀸  # 摩洛哥[mo ro ko]
-𛁔𛂔𛀘゙𛃻  # 塞内加爾[se ne gal]
-南𛀄𛂟゚𛃱゚𛀘  # 南阿非利加[mi na mi af ri ka]
-南𛂁𛂟゚𛃱゚  # 南非[mi naf ri]
-𛁬𛂈𛁉𛀄  # 突尼斯[tu ni si a]
+# ↓非洲[af ri ka]
+𛀄𛂟゚𛃱゚𛀘
+# ↓阿爾及利亞[al je ri]
+𛀄𛃻𛁕゙𛃱゚
+# ↓佛得角[ka bo ver de]
+𛀘𛂻゙𛂶゙𛃻゚𛁯゙
+# ↓剛果[kon go]
+𛀸𛄞𛀸゙
+# ↓剛果民主共和國[kon go men cu kou wo kook]
+𛀸𛄞𛀸゙民主共和國	konn go men cu kou wo kookk
+# ↓扎伊爾[za ir]
+𛁁゙𛀇𛃻゚
+# ↓埃及[e jip]
+𛀑𛁈゙𛂟
+# ↓加納[ga na]
+𛀘゙𛂁
+# ↓科特迪瓦[kot di voar]
+𛀸𛁲ぢ𛂹゙𛀄𛃻゚
+# ↓摩洛哥[mo ro ko]
+𛃘𛄂゚𛀸
+# ↓塞内加爾[se ne gal]
+𛁔𛂔𛀘゙𛃻
+# ↓南阿非利加[mi na mi af ri ka]
+南𛀄𛂟゚𛃱゚𛀘
+# ↓南非[mi naf ri]
+南𛂁𛂟゚𛃱゚	mi naff ri
+# ↓突尼斯[tu ni si a]
+𛁬𛂈𛁉𛀄
 # 世界盃專題：北美球隊
-北𛀄𛃔𛃱゚𛀘 # 北美洲[ki ta a me ri ka]
-北𛃔  # 北美[ki ta me]
-𛀘𛂁𛁠゙  # 加拿大[ka na da]
-𛃔𛀦𛁉𛀸  # 墨西哥[mek si ko]
-美國  # 美國[mi kook]
-𛀄𛃔𛃱゚𛀘  # 亞美利加[a me ri ka]
-𛀬𛃯゚𛁁𛄜  # 庫拉索[ku ra sau]
-𛀙゚𛀆ち  # 海地[hai ti]
-𛂞𛂁𛃄  # 巴拿馬[pa na ma]
+# ↓北美洲[ki ta a me ri ka]
+北𛀄𛃔𛃱゚𛀘
+# ↓北美[ki ta me]
+北𛃔	ki ta me
+# ↓加拿大[ka na da]
+𛀘𛂁𛁠゙
+# ↓墨西哥[mek si ko]
+𛃔𛀦𛁉𛀸
+# ↓美國[mi kook]
+美國	mi kookk
+# ↓亞美利加[a me ri ka]
+𛀄𛃔𛃱゚𛀘
+# ↓庫拉索[ku ra sau]
+𛀬𛃯゚𛁁𛄜
+# ↓海地[hai ti]
+𛀙゚𛀆ち
+# ↓巴拿馬[pa na ma]
+𛂞𛂁𛃄
 # 世界盃專題：南美球隊
-南𛀄𛃔𛃱゚𛀘  # 南美洲[mi na mi a me ri ka]
-南𛃔  # 南美[mi na me]
-𛀄𛃻゚𛁕゙𛄞ち𛂁  # 阿根廷[ar jen ti na]
-𛂟゙𛃯゚𛁉゙𛃻  # 巴西[bra zil]
-𛀸𛄂𛃖𛂫゙𛀄  # 哥倫比亞[ko lom bi a]
-𛀑𛀸𛀄𛁷゙𛃻゚  # 厄瓜多爾[e koa dor]
-𛂞𛃯゚𛀸゙𛀄𛀆  # 巴拉圭[pa ra goai]
-𛀊𛃺゚𛀸゙𛀄𛀆   # 烏拉圭[u ru goai]
+# ↓南美洲[mi na mi a me ri ka]
+南𛀄𛃔𛃱゚𛀘
+# ↓南美[mi na me]
+南𛃔	mi na me
+# ↓阿根廷[ar jen ti na]
+𛀄𛃻゚𛁕゙𛄞ち𛂁
+# ↓巴西[bra zil]
+𛂟゙𛃯゚𛁉゙𛃻
+# ↓哥倫比亞[ko lom bi a]
+𛀸𛄂𛃖𛂫゙𛀄
+# ↓厄瓜多爾[e koa dor]
+𛀑𛀸𛀄𛁷゙𛃻゚
+# ↓巴拉圭[pa ra goai]
+𛂞𛃯゚𛀸゙𛀄𛀆
+# ↓烏拉圭[u ru goai]
+𛀊𛃺゚𛀸゙𛀄𛀆
 # 世界盃專題：大洋洲球隊
-𛀕𛁔𛀄𛂈𛀄  # 大洋洲[o se a ni a]
-𛂈𛄜𛁉゙𛃯𛄞  # 新西蘭[niu zi lan]
+# ↓大洋洲[o se a ni a]
+𛀕𛁔𛀄𛂈𛀄
+# ↓新西蘭[niu zi lan]
+𛂈𛄜𛁉゙𛃯𛄞
 
