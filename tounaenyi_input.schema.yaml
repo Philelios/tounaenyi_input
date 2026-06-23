@@ -2,14 +2,15 @@
 # encoding: utf-8
 
 schema:
-  schema_id: tounaekana
-  name: "東寧假名"
-  version: "beta 0.1.2 Haitou"
+  schema_id: tounaenyi_romazi
+  name: "東寧語𛄂゚𛃄字"
+  version: "0.1.2-beta Chouyou"
   author:
     - 蘇維臣 ‹taghnar_v@outlook.com›
   description: 
-    東寧語假名輸入法試作，文字基於日語變體假名。
-    基於埃爾德路 ‹edwardmartyr@outlook.com›的變體假名輸入方案製作。
+    東寧語羅馬字輸入法試作，文字基於日語變體假名。
+    此方案基於架空國家東寧：https://tounae.miraheze.org/
+    參考埃爾德路 ‹edwardmartyr@outlook.com›的變體假名輸入方案製作。
 
 switches:
   - name: ascii_mode
